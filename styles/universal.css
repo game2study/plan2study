@@ -1,0 +1,77 @@
+html {
+    font-family: "Pixelify Sans";
+}
+h1 {
+    font-family: "Jersey 10";
+    font-size: 90px;
+}
+h2 {
+    font-family: "Pixelify Sans";
+    font-size: 40px;
+}
+p {
+    font-family: "Teachers";
+    font-size:20px;
+}
+span {
+    font-family: "Tiny5";
+    font-size:20px;
+}
+button {
+    font-family: "Tiny5";
+    font-size:20px;
+    border: none;
+    height: 50px;
+    /*border-radius: 5px;*/
+    background-color: #ffde59;
+    cursor:pointer;
+    padding: 5px 20px 5px 20px;
+}
+button:hover {
+    background-color: #ffeb9b;
+}
+#g2sbanner {
+    top: 60px;
+    position:absolute;
+    left: 0px;
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+#g2s-banner-img {
+    width: 100%;
+}
+#navbar {
+    width: 100%;
+    max-height: 60px;
+    min-height: 10%;
+    background-color: rgb(45, 45, 45);
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 30px;
+    text-align:center;
+    box-shadow: 0px 5px 20px black;
+    z-index: 100;
+}
+.navlink {
+    position: relative;
+    color:white;
+    padding:5%;
+    text-decoration: none;
+    font-family: "Pixelify Sans";
+    top:40%;
+}
+.centertext {
+    text-align: center;
+}
+
+div.webwindow {
+    width:90%;
+    height:80%;
+    box-shadow: 0px 0px 100px rgb(200, 200, 200);
+    border-radius:50px;
+    position:absolute;
+    left:5%;
+    top:15%;
+}
