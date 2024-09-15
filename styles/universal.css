@@ -2,11 +2,11 @@ html {
     font-family: "Teachers";
 }
 h1 {
-    font-family: "Jersey 10";
+    font-family: "Teachers";
     font-size: 90px;
 }
 h2 {
-    font-family: "Teachers";
+    font-family: "Montserrat";
     font-size: 40px;
 }
 p {
@@ -14,11 +14,11 @@ p {
     font-size:20px;
 }
 span {
-    font-family: "Tiny5";
+    font-family: "Montserrat";
     font-size:20px;
 }
 button {
-    font-family: "Tiny5";
+    font-family: "Montserrat";
     font-size:20px;
     border: none;
     height: 50px;
