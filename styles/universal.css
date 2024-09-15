@@ -18,7 +18,7 @@ span {
     font-size:20px;
 }
 button {
-    font-family: "Montserrat";
+    font-family: "Teachers";
     font-size:20px;
     border: none;
     height: 50px;
@@ -59,7 +59,7 @@ button:hover {
     color:white;
     padding:5%;
     text-decoration: none;
-    font-family: "Pixelify Sans";
+    font-family: "Montserrat";
     top:40%;
 }
 .centertext {
