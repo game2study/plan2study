@@ -30,17 +30,6 @@ button {
 button:hover {
     background-color: #ffeb9b;
 }
-#g2sbanner {
-    top: 60px;
-    position:absolute;
-    left: 0px;
-    height: 400px;
-    width: 100%;
-    color: white;
-}
-#g2s-banner-img {
-    width: 100%;
-}
 #navbar {
     width: 100%;
     max-height: 60px;
