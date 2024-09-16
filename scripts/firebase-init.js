@@ -1,5 +1,11 @@
-import { initializeApp } from "/node_modules/firebase/app";
-import { getAuth } from "/node_modules/firebase/auth";
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js'
+
+// If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
+import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js'
+
+// Add Firebase products that you want to use
+import { getAuth, createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js'
+import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js'
 
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://firebase.google.com/docs/web/learn-more#config-object
