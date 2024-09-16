@@ -20,3 +20,5 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+var provider = new firebase.auth.GoogleAuthProvider();
+firebase.auth().useDeviceLanguage();
