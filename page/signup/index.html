@@ -11,6 +11,7 @@
         <script type="module" src="/scripts/firebase-init.js" defer></script>
         <script src="/scripts/shared.js" defer></script>
         <script type="module" defer>
+            import { getAuth, createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js'
             createUserWithEmailAndPassword(auth, "example@example.com", "th15is@p@55w0rd")
               .then((userCredential) => {
                 // Signed up 
