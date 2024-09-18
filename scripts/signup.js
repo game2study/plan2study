@@ -1,4 +1,6 @@
 import { getAuth, createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js'
+const auth = getAuth()
+//and if this doesn't work, someone isn't going to see the light of day
 createUserWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
     // Signed up 
