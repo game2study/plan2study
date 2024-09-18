@@ -10,5 +10,7 @@ createUserWithEmailAndPassword(auth, "bobisangry@example.com", "5B0B15ANGRY")
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
+    console.log(errorCode)
+    console.error(errorMessage)
     // ..
   });
