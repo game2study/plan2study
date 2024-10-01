@@ -2,7 +2,7 @@ const links = [
     { name:"Home", link:"/", accountNeeded: false },
     { name:"About", link:"/page/about", accountNeeded: false },
     { name:"Sign Up", link:"/page/signup", accountNeeded: false },
-    { name:"Log In", link:"/page/login", accountNeeded: false },
+    { name:"Log In", link:"/page/signin", accountNeeded: false },
     { name:"Game2Study", link:"https://game2study.com", accountNeeded: false }
 ]
 if (document.getElementById("navbar")) {
