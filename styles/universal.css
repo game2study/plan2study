@@ -78,7 +78,11 @@ input {
     border: solid rgb(200, 200, 200) 1px;
     outline:none;height:45px;font-family:Teachers;
     font-size:20px;margin:5px;text-align:center;
+    transition: border 0.3s ease;
 }
 input:focus {
     border: solid rgb(100, 100, 255) 3px;
+}
+input:not(:focus) {
+    border: solid rgb(200, 200, 200) 1px;
 }
