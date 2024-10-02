@@ -79,3 +79,6 @@ input {
     outline:none;height:45px;font-family:Teachers;
     font-size:20px;margin:5px;text-align:center;
 }
+input:focus {
+    border: solid rgb(100, 100, 255) 3px;
+}
