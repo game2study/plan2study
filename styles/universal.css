@@ -89,7 +89,7 @@ input:not(:focus) {
 .sidebar {
     width:25%;
     border:none;
-    border-left:solid rgb(100, 100, 100) 2px;
+    border-right:solid rgb(100, 100, 100) 2px;
     height:100%;
     position:absolute;
     left:0px;
