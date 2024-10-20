@@ -7,7 +7,7 @@ const links = [
 ]
 if (document.getElementById("navbar")) {
     const navbar = document.getElementById("navbar")
-    for (let i = 0; i <= links.length; i++){
+    for (let i = 0; i < links.length; i++){
         let link = document.createElement("a");
         link.className = "navlink"
         link.setAttribute("href", links[i].link);
