@@ -15,8 +15,12 @@
 .ptci_up {
     width:20px;
     height:20px;
+    display:inline;
+    padding:5px;
 }
 .ptci_down {
     width:20px;
     height:20px;
+    display:inline;
+    padding:5px;
 }
