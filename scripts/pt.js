@@ -38,7 +38,7 @@ function populateSidebar(inputs){
         nameElement.className = "pt_item_name";
         contElement.className = "pt_item_controls";
         nameElement.innerText = input.type;
-        nameElement.onclick = "addWorkspaceElem(`" + input.type +"`)";
+        document.querySelectorAll(".pt_item").forEach((item) => {item.setAttribute("onclick", "addWorkspaceElem(`" + input.type +"`)")})
         contElement.append(svgUp);
         contElement.append(svgDown);
         element.append(nameElement);
