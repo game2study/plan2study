@@ -94,4 +94,5 @@ input:not(:focus) {
     position: absolute;
     left: 0px;
     top: 0px;
+    background-color:white;
 }
