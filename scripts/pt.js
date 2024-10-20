@@ -60,7 +60,7 @@ function addWorkspaceElem(input){
     element.className = "ptw_item";
     nameElement.className = "pt_item_name";
     contElement.className = "pt_item_controls";
-    nameElement.innerText = input.type;
+    nameElement.innerText = input;
     contElement.append(svgUp);
     contElement.append(svgDown);
     element.append(nameElement);
