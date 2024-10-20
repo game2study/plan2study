@@ -25,5 +25,7 @@
     padding:5px;
 }
 #pt_workspace {
-    
+    background-repeat: repeat;
+    background-image: url("/assets/dot.svg");
+    background-color: white;
 }
