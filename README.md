@@ -1,12 +1,12 @@
-<h1>Game 2 Study</h1>
+<h1>Plan2Study</h1>
 
 <h2>Description</h2>
 
-This project aspires to make learning fun by integrating question kits into video games.
+This project is to be submitted for the Congressional App Challenge.
 
 <h2>Link</h2>
 
-Linked is the [website](https://game2study.com) for our project.
+Linked is the [website](https://plan.game2study.com) for our project.
 
 <h2>Feedback</h2>
 
