@@ -56,7 +56,7 @@ function addWorkspaceElem(input){
     svgDown.src = "/assets/arrowdown.svg";
     svgUp.className = "ptic_up";
     svgDown.className = "ptic_down";
-    element.className = "pt_item";
+    element.className = "ptw_item";
     nameElement.className = "pt_item_name";
     contElement.className = "pt_item_controls";
     nameElement.innerText = input.type;
