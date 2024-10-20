@@ -43,6 +43,7 @@ function populateSidebar(inputs){
         element.append(nameElement);
         element.append(contElement);
         sidebarElement.append(element);
+        nameElement.onclick = "addWorkspaceElem(`" + input.type +"`)";
     })
 }
 function addWorkspaceElem(input){
