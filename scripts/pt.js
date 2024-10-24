@@ -5,8 +5,9 @@ var workspace = {
     ]
 }
 const sidebarConfig = [
-    {"type":"Name"},
-    {"type":"YOO"}
+    {"type":"Input"},
+    {"type":"URL"},
+    {"type":"Date"},
 ]
 /* Item Template:
 let item = {
@@ -53,8 +54,10 @@ function addWorkspaceElem(input){
     let contElement = document.createElement("div");
     let svgDown = document.createElement("img");
     let svgUp = document.createElement("img");
+    let svgSet = document.createElement("img");
     svgUp.src = "/assets/arrowup.svg";
     svgDown.src = "/assets/arrowdown.svg";
+    svgSet.src = "/assets/settings.svg";
     svgUp.className = "ptic_up";
     svgDown.className = "ptic_down";
     element.className = "ptw_item";
@@ -64,6 +67,7 @@ function addWorkspaceElem(input){
     nameElement.innerText = input;
     contElement.append(svgUp);
     contElement.append(svgDown);
+    contElement.append(svgSet);
     element.append(nameElement);
     element.append(contElement);
     workspaceElement.append(element);
