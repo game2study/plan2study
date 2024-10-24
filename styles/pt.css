@@ -12,6 +12,9 @@
     padding: 10px 50px 10px 50px;
     font-size: 25px;
 }
+.pt_item_name {
+  outline:none;
+}
 .ptw_item {
     background-color: #ffde59;
     border-radius: 15px;

@@ -59,6 +59,7 @@ function addWorkspaceElem(input){
     svgDown.className = "ptic_down";
     element.className = "ptw_item";
     nameElement.className = "pt_item_name";
+    nameElement.contentEditable = "true";
     contElement.className = "pt_item_controls";
     nameElement.innerText = input;
     contElement.append(svgUp);
