@@ -56,19 +56,26 @@ function addWorkspaceElem(input){
     let svgUp = document.createElement("img");
     let svgSet = document.createElement("img");
     let svgDel = document.createElement("img");
+
     svgUp.src = "/assets/arrowup.svg";
     svgDown.src = "/assets/arrowdown.svg";
     svgSet.src = "/assets/settings.svg";
     svgDel.src = "/assets/trash.svg";
+
     svgSet.className = "ptic ptic_settings";
     svgDel.className = "ptic ptic_delete";
     svgUp.className = "ptic ptic_up";
     svgDown.className = "ptic ptic_down";
     element.className = "ptw_item";
-    nameElement.className = "pt_item_name";
-    nameElement.contentEditable = "true";
     contElement.className = "pt_item_controls";
+    nameElement.className = "pt_item_name";
+
+    nameElement.contentEditable = "true";
     nameElement.innerText = input;
+
+    svgDel.setAttribute("onclick", "this.parentElement.parentElement.remove()");
+    svgSet.setAttribute("onclick", "document.getElementById('ptiSettingsDialog').showModal()");
+
     contElement.append(svgUp);
     contElement.append(svgDown);
     contElement.append(svgSet);
