@@ -33,6 +33,14 @@
     padding:5px;
     user-select:none;
 }
+.ptic_up {
+  width:10px;
+  height:10px;
+}
+.ptic_down {
+  width:10px;
+  height:10px;
+}
 #pt_workspace {
     background-repeat: repeat;
     background-image: url("/assets/dot.svg");
