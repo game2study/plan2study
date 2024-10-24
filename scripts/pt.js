@@ -79,6 +79,7 @@ function addWorkspaceElem(input){
     }
 
     element.dataset.item = JSON.stringify(itemJSON);
+    nameElement.onkeyup = "this.parentElement.dataset.item = this.innerText;";
 }
 
 populateSidebar(sidebarConfig);
