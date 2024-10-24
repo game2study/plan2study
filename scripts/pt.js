@@ -60,8 +60,10 @@ function addWorkspaceElem(input){
     svgDown.src = "/assets/arrowdown.svg";
     svgSet.src = "/assets/settings.svg";
     svgDel.src = "/assets/trash.svg";
-    svgUp.className = "ptic_up";
-    svgDown.className = "ptic_down";
+    svgSet.className = "ptic ptic_settings";
+    svgDel.className = "ptic ptic_delete";
+    svgUp.className = "ptic ptic_up";
+    svgDown.className = "ptic ptic_down";
     element.className = "ptw_item";
     nameElement.className = "pt_item_name";
     nameElement.contentEditable = "true";

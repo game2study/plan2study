@@ -26,16 +26,9 @@
     z-index: 1;
     margin: 15px;
 }
-.ptic_up {
-    width:20px;
-    height:20px;
-    display:inline;
-    padding:5px;
-    user-select:none;
-}
-.ptic_down {
-    width:20px;
-    height:20px;
+.ptic {
+    width:30px;
+    height:30px;
     display:inline;
     padding:5px;
     user-select:none;
