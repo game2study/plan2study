@@ -95,3 +95,11 @@ input:not(:focus) {
     left: 0px;
     top: 0px;
 }
+dialog {
+    border: none;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0px 0px 20px 1px rgb(200, 200, 200);
+    border-radius: 50px;
+    text-align: center;
+}
