@@ -86,6 +86,15 @@ input:focus {
 input:not(:focus) {
     border: solid rgb(200, 200, 200) 1px;
 }
+
+select {
+    border-radius:10px;
+    border: solid rgb(200, 200, 200) 1px;
+    outline:none;height:45px;font-family:Teachers;
+    font-size:20px;margin:5px;text-align:center;
+    transition: border 0.3s ease;
+}
+
 .sidebar {
     width: 25%;
     border: none;

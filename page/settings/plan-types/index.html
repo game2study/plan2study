@@ -14,9 +14,13 @@
   
     <body>
         <dialog id="ptiSettingsDialog"><h2>Type</h2>
-            <span>Input</span>
+            <select id="ptiSetInputType">
+                <option>Text</option>
+                <option>URL</option>
+            </select>
             <br><br>
-            <button onclick="this.parentElement.close()">Close</button>
+            <button id="saveNewInputTypeBttn">Save</button>
+            <button onclick="this.parentElement.close()">Cancel</button>
         </dialog>
         <div id="navbar"></div>
         <br>
