@@ -32,6 +32,11 @@
     display:inline;
     padding:5px;
     user-select:none;
+    cursor:pointer;
+    border-radius:2px;
+}
+.ptic:hover {
+  background-color: #dec14f;
 }
 .ptic_up {
   width:10px;
