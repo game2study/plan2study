@@ -55,9 +55,11 @@ function addWorkspaceElem(input){
     let svgDown = document.createElement("img");
     let svgUp = document.createElement("img");
     let svgSet = document.createElement("img");
+    let svgDel = document.createElement("img");
     svgUp.src = "/assets/arrowup.svg";
     svgDown.src = "/assets/arrowdown.svg";
     svgSet.src = "/assets/settings.svg";
+    svgDown.src = "/assets/settings.svg";
     svgUp.className = "ptic_up";
     svgDown.className = "ptic_down";
     element.className = "ptw_item";
@@ -68,6 +70,7 @@ function addWorkspaceElem(input){
     contElement.append(svgUp);
     contElement.append(svgDown);
     contElement.append(svgSet);
+    contElement.append(svgDel);
     element.append(nameElement);
     element.append(contElement);
     workspaceElement.append(element);
