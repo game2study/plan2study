@@ -59,7 +59,7 @@ function addWorkspaceElem(input){
     svgUp.src = "/assets/arrowup.svg";
     svgDown.src = "/assets/arrowdown.svg";
     svgSet.src = "/assets/settings.svg";
-    svgDel.src = "/assets/settings.svg";
+    svgDel.src = "/assets/trash.svg";
     svgUp.className = "ptic_up";
     svgDown.className = "ptic_down";
     element.className = "ptw_item";
