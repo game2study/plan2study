@@ -5,7 +5,7 @@ var workspace = {
     ]
 }
 const sidebarConfig = [
-    {"type":"Input"},
+    {"type":"Text"},
     {"type":"URL"},
     {"type":"Date"},
 ]
@@ -71,6 +71,14 @@ function addWorkspaceElem(input){
     element.append(nameElement);
     element.append(contElement);
     workspaceElement.append(element);
+
+    let itemJSON = {
+        "label":input,
+        "type":input,
+        "extra":[]
+    }
+
+    element.dataset.item = JSON.stringify(itemJSON);
 }
 
 populateSidebar(sidebarConfig);
